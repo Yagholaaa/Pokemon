@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+  margin: 0px;
+
+  padding: 0px;
+}
+
+#element{
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+body .Cards {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial";
+  gap: 16px;
+  padding-top: 5%;
+}
+
+body {
+  background-image: url(/assets/img/background.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.front img {
+  background-color: #ebebeb;
+  border: 0px solid;
+  border-radius: 16px;
+  width: 100%;
+  margin: 0px;
+
+}
+
+.info p {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  height: 35px;
+}
+
+.info h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-left: 0px;
+  padding-left: 12px;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 25px;
+  background-color: white;
+
+}
+
+.front {
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border: 1px solid;
+  border-color: #d0d0d0;
+  border-radius: 20px;
+  box-shadow: 4px 4px 12px #aaaa;
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  height: 400px;
+  width: 270px;
+  padding-left: 5px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+ 
+
+}
+
+.Cards .col-3 {
+  height: 430px;
+
+}
+
+.anime {
+  transition: all 2s ease;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  list-style: none;
+  height: 430px;
+}
+
+.back {
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  position: relative;
+  bottom: 400px;
+  border: 1px solid;
+  border-color: #d0d0d0;
+  border-radius: 20px;
+  box-shadow: 4px 4px 12px #aaaa;
+  list-style: none;
+  margin: 0px;
+  left: -5px;
+  padding: 5px;
+  height: 400px;
+  width: 270px;
+  padding-left: 5px;
+  background-color: #f3f1f1;
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+  font-family: 'Mooli', sans-serif;
+
+}
+
+
+.Cards {
+  height: 1000px;
+  margin-left: 15%;
+  float: left;
+}
+
+.anime:hovr {
+
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+
+}
+
+/*Back*/
+
+.fraquezas {
+  font-weight: 600;
+  border: 0px solid;
+  font-size: 14px;
+  position: relative;
+  top: 120px;
+  left: 10px;
+}
+
+.resistencias {
+  font-weight: 600;
+  border: 0px solid;
+  position: relative;
+  top: 60px;
+  font-size: 14px;
+  left: 10px;
+}
+
+.Imunidades{
+  font-weight: 600;
+  border: 0px solid;
+  position: relative;
+  top: 45px;
+  font-size: 14px;
+  margin-left: 10px;
+
+}
+
+.historia {
+  border: 1px solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.especificaões {
+  border: 2px solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  top: 100px;
+
+  background-color: #ff0d00ab;
+  cursor: pointer;
+}
+
+/*Evoluções*/
+
+.evo1 {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+
+.evo2 {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  left: 95px;
+  bottom: 45px;
+}
+
+.evo3 {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  left: 180px;
+  bottom: 110px;
+}
+
+.evo {
+
+  height: 65px;
+
+}
+
+.evo1 img {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  left: 5px;
+  top: 5px;
+}
+
+.evo2 img {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  left: 5px;
+  top: 5px;
+}
+
+.evo3 img {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  left: 5px;
+  top: 5px;
+
+}
+
+.ih {
+  width: 45px;
+  height: 45px;
+}
+
+.evo1 .p1{
+  font-size: 11px;
+  position: relative;
+  top: 10px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo1 .p2{
+  font-size: 28px;
+  position: relative;
+  bottom: 38px;
+  left: 45px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo1 .p3{
+  font-size: 11px;
+  position: relative;
+  bottom: 68px;
+  left: 45px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo2 .p1{
+  font-size: 11px;
+  width: 65px;
+  position: relative;
+  top: 10px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.evo2 .p2{
+  font-size: 28px;
+  position: relative;
+  bottom: 38px;
+  left: 42px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.evo2 .p3{
+  font-size: 11px;
+  position: relative;
+  bottom: 68px;
+  left: 42px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo3 p{
+  font-size: 11px;
+  position: relative;
+  top: 10px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#atual{
+  font-weight: bold;
+}
+
+
+
+
+/*Tipagens*/
+
+
+.tipofogo span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  width: 100px;
+  background: #ce6a18;
+
+}
+
+.tipovoador span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #88c0d0;
+}
+
+.tipograma span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #009307;
+}
+
+.tipogramab span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 12px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  top: 60px;
+  position: relative;
+  width: 80px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #009307;
+}
+
+.tipoeletrico span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  background: #f4d90e;
+}
+
+.tipoveneno span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ab1fc0;
+}
+
+.tipoaço span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #a6a6a6;
+}
+
+.tipoterrestre span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ba5913;
+}
+
+.tipopedra span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #dbcaa3;
+}
+
+.tipolutador span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ae3103;
+}
+
+.tipogelo span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #beeef2;
+}
+
+.tipoagua span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #3b99f7;
+}
+
+.tipopsiquico span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #d80ab6;
+}
+
+.tipoinseto span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #70b115;
+}
+
+.tipodragao span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #3b00dd;
+}
+
+.tipofada span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #f85fd4;
+}
+
+.tiponormal span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #dedede;
+}
+
+.tipofantasma span {
+  text-align: center;
+  border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #760c76;
+}

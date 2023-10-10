@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/styleCards.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/styleNavBar.css">
+
+  <title>Pokemom|Pokedex</title>
+</head>
+
+<!--NavBar-->
+
+<body>
+
+  <div class="navbarcaralho">
+
+    <nav class="navbar navbar-expand-lg bg- border-bottom border-body" data-bs-theme="dark"
+      style="background-color: rgb(1, 2, 38);">
+
+      <a class="navbar-brand" href="https://www.pokemon.com/br/"><img src="assets/img/Pokebola.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.pokemon.com/br/pokedex/">Pokedex</a>
+          </li>
+          <li class="nav-item dropdown">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2Frjr3offlYlw%2Fmaxresdefault.jpg&tbnid=YNht5YsQCAaPKM&vet=12ahUKEwiZh_ufvKyBAxXsHrkGHepBAMsQMygAegQIARAx..i&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Drjr3offlYlw&docid=geRmdWRzeBj6-M&w=1280&h=720&q=rapaz%20ele%20ta%20sem%20zap&ved=2ahUKEwiZh_ufvKyBAxXsHrkGHepBAMsQMygAegQIARAx">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"
+              style="color: #f5f5f5;"></i></button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <div class="Cards">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3" id="element">
+              <li class="anime" id="pokemon">
+                <div class="front" id="f001">
+                  <a class="bulbasaur">
+                    <img id="002" src="/assets/img/001.png">
+                  </a>
+                  <div class="info">
+                    <p>Nº001</p>
+                    <h4>Bulbasaur</h4>
+                    <div class="tipograma">
+                      <span class="grama">Grama</span>
+                    </div>
+                    <div class="tipoveneno">
+                      <span class="veneno">Veneno</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="back" id="b001">
+                  <div class="evo">
+                    <div class="evo1">
+                      
+                      <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                      <a href="google.coom"></a>
+                      <p class="p1" id="atual">Bulbasaur</p>
+                      <p class="p2">→</p>
+                      <p class="p3" id="atual">Lv16</p>
+                    </div>
+                    <div class="evo2">
+                      <img src="/assets/imgPA/ivysaur.png" alt="">
+                      <p class="p1">Ivysaur</p>
+                      <p class="p2">→</p>
+                      <p class="p3" >Lv36</p>
+                    </div>
+                    <div class="evo3">
+                      <img src="/assets/imgPA/venusaur.png" alt="">
+                      <p>Venusaur</p>
+                    </div>
+                  </div>
+                  <div class="especificações">
+    
+                  </div>
+    
+                  <p class="fraquezas" id="Fraquezas">
+                    <div class="tipogramab">
+                      <span class="grama">Grama</span>
+                    </div>
+                  </p>
+                  <p class="resistencias" id="Fraquezas">
+                    <a href="google.com"></a>
+                    Resistencias: Grana, agua, eletrico, Lutador, fada
+                  </p>
+    
+                  <p class="Imunidades">Nenhuma imunidade</p>
+    
+                </div>
+              </li>
+            </div>
+            <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+              <div class="col-3" id="element">
+                <li class="anime" id="pokemon">
+                  <div class="front" id="f001">
+                    <a class="bulbasaur">
+                      <img id="002" src="/assets/img/001.png">
+                    </a>
+                    <div class="info">
+                      <p>Nº001</p>
+                      <h4>Bulbasaur</h4>
+                      <div class="tipograma">
+                        <span class="grama">Grama</span>
+                      </div>
+                      <div class="tipoveneno">
+                        <span class="veneno">Veneno</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="back" id="b001">
+                    <div class="evo">
+                      <div class="evo1">
+                        
+                        <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+                        <a href="google.coom"></a>
+                        <p class="p1" id="atual">Bulbasaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" id="atual">Lv16</p>
+                      </div>
+                      <div class="evo2">
+                        <img src="/assets/imgPA/ivysaur.png" alt="">
+                        <p class="p1">Ivysaur</p>
+                        <p class="p2">→</p>
+                        <p class="p3" >Lv36</p>
+                      </div>
+                      <div class="evo3">
+                        <img src="/assets/imgPA/venusaur.png" alt="">
+                        <p>Venusaur</p>
+                      </div>
+                    </div>
+                    <div class="especificações">
+      
+                    </div>
+      
+                    <p class="fraquezas" id="Fraquezas">
+                      <div class="tipogramab">
+                        <span class="grama">Grama</span>
+                      </div>
+                    </p>
+                    <p class="resistencias" id="Fraquezas">
+                      <a href="google.com"></a>
+                      Resistencias: Grana, agua, eletrico, Lutador, fada
+                    </p>
+      
+                    <p class="Imunidades">Nenhuma imunidade</p>
+      
+                  </div>
+                </li>
+              </div>
+        </div>
+  </div>
+</body>
+<script>
+const pokemons= document.querySelectorAll("#pokemon")
+const cards = document.querySelectorAll("#element")
+let index = []
+pokemons.forEach(element=>{
+    index.push(0)
+})
+console.log(index)
+
+cards.forEach((card,i)=>{
+  card.addEventListener("click",()=>{
+    index[i]%2==0?pokemons[i].style.transform =  'rotateY(180deg)':pokemons[i].style.transform =  'rotateY(0deg)'
+    index[i]++
+})
+})
+  </script>
+<!-- 
+<div class="col-3" id="element">
+    <li class="anime" id="pokemon">
+      <div class="front" id="f001">
+        <a class="bulbasaur">
+          <img id="002" src="/assets/img/001.png">
+        </a>
+        <div class="info">
+          <p></p>
+          <h4></h4>
+          <div class="tipograma">
+            <span class="grama"></span>
+          </div>
+          <div class="tipoveneno">
+            <span class="veneno">Veneno</span>
+          </div>
+        </div>
+      </div>
+      <div class="back" id="b001">
+        <div class="evo">
+          <div class="evo1">
+            
+            <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
+            <a href="google.coom"></a>
+            <p class="p1" id="atual">Bulbasaur</p>
+            <p class="p2">→</p>
+            <p class="p3" id="atual">Lv16</p>
+          </div>
+          <div class="evo2">
+            <img src="/assets/imgPA/ivysaur.png" alt="">
+            <p class="p1">Ivysaur</p>
+            <p class="p2">→</p>
+            <p class="p3" >Lv36</p>
+          </div>
+          <div class="evo3">
+            <img src="/assets/imgPA/venusaur.png" alt="">
+            <p>Venusaur</p>
+          </div>
+        </div>
+        <div class="especificações">
+
+        </div>
+
+        <p class="fraquezas" id="Fraquezas">
+          <div class="tipogramab">
+            <span class="grama">Grama</span>
+          </div>
+        </p>
+        <p class="resistencias" id="Fraquezas">
+          <a href="google.com"></a>
+          Resistencias: Grana, agua, eletrico, Lutador, fada
+        </p>
+
+        <p class="Imunidades">Nenhuma imunidade</p>
+
+      </div>
+    </li> 
+  </div>-->
+</html>
