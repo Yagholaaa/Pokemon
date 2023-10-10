@@ -126,6 +126,8 @@ body {
   padding-left: 0;
   border: 0;
   display: block;
+  bottom: 7px;
+  position: relative;
 
 
 
@@ -134,20 +136,33 @@ body {
 .fraquezas {
 
   border: 0px solid;
+  background-color: #ffffff;
+  border-radius: 10px;
   font-size: 14px;
   position: relative;
   display: block;
   height: 80px;
+  box-shadow: 4px 4px 12px #aaaa;
+  box-shadow: opa;
 
 }
 
 .fraquezas p {
   height: 30px;
+  display: block;
+  margin: 0;
+  position: relative;
+  top: 10px;
 }
 
 .fraquezas h6 {
   height: 19px;
-margin-top: 5px;
+  margin-top: 5px;
+  display: block;
+  top: 3px;
+  width: 220px;
+  
+  position: relative;
   margin-left: 5px;
 }
 
@@ -206,7 +221,7 @@ margin-top: 5px;
   border-radius: 100%;
   width: 65px;
   height: 65px;
-  background-color: #ffffff;
+  background-color: #fff;
   cursor: pointer;
   position: relative;
   left: 10px;
@@ -221,7 +236,7 @@ margin-top: 5px;
   border-radius: 100%;
   width: 65px;
   height: 65px;
-  background-color: #ffffff;
+  background-color: #fff;
   cursor: pointer;
   position: relative;
   left: 95px;
@@ -236,7 +251,7 @@ margin-top: 5px;
   border-radius: 100%;
   width: 65px;
   height: 65px;
-  background-color: #ffffff;
+  background-color: #fff;
   cursor: pointer;
   position: relative;
   left: 180px;
