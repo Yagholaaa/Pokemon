@@ -128,11 +128,12 @@ body {
   display: block;
 
 
+
 }
 
 .fraquezas {
-  font-weight: 600;
-  border: 1px solid;
+
+  border: 0px solid;
   font-size: 14px;
   position: relative;
   display: block;
@@ -145,11 +146,13 @@ body {
 }
 
 .fraquezas h6 {
-  height: 20px;
+  height: 19px;
+margin-top: 5px;
+  margin-left: 5px;
 }
 
 .resistencias {
-  font-weight: 600;
+
   border: 0px solid;
   position: relative;
   top: 60px;
@@ -158,7 +161,7 @@ body {
 }
 
 .Imunidades {
-  font-weight: 600;
+
   border: 0px solid;
   position: relative;
   top: 45px;
@@ -637,8 +640,9 @@ body {
 
 .tipogramab {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -647,7 +651,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #009307;
   list-style: none;
@@ -655,8 +659,9 @@ body {
 
 .tipofogob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -665,7 +670,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #ce6a18;
   list-style: none;
@@ -674,8 +679,9 @@ body {
 
 .tipovoadorb {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -684,7 +690,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #88c0d0;
   list-style: none;
@@ -692,8 +698,9 @@ body {
 
 .tipoeletricob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -702,7 +709,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #f4d90e;
   list-style: none;
@@ -710,8 +717,9 @@ body {
 
 .tipovenenob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -720,7 +728,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #ab1fc0;
   list-style: none;
@@ -728,8 +736,9 @@ body {
 
 .tipoaçob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -738,7 +747,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #a6a6a6;
   list-style: none;
@@ -746,8 +755,9 @@ body {
 
 .tipoterrestreb {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -756,7 +766,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #ba5913;
   list-style: none;
@@ -764,8 +774,9 @@ body {
 
 .tipopedrab {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -774,7 +785,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #dbcaa3;
   list-style: none;
@@ -782,8 +793,9 @@ body {
 
 .tipolutadorb {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -792,7 +804,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #ae3103;
   list-style: none;
@@ -800,8 +812,9 @@ body {
 
 .tipogelob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -810,7 +823,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #beeef2;
   list-style: none;
@@ -818,8 +831,9 @@ body {
 
 .tipoaguab {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -828,7 +842,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #3b99f7;
   list-style: none;
@@ -836,8 +850,9 @@ body {
 
 .tipopsiquicob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 4px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -846,7 +861,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #d80ab6;
   list-style: none;
@@ -854,8 +869,9 @@ body {
 
 .tipoinsetob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -864,7 +880,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #70b115;
   list-style: none;
@@ -872,8 +888,9 @@ body {
 
 .tipodragaob {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -882,7 +899,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #3b00dd;
   list-style: none;
@@ -890,8 +907,9 @@ body {
 
 .tipofadab {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -900,7 +918,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #f85fd4;
   list-style: none;
@@ -908,8 +926,9 @@ body {
 
 .tiponormalb {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 10px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -918,7 +937,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #dedede;
   list-style: none;
@@ -926,8 +945,9 @@ body {
 
 .tipofantasmab {
   text-align: center;
+  float: left;
   border: 0px solid;
-  margin: 0px;
+  margin: 5px 0 0 10px;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
@@ -936,7 +956,7 @@ body {
   color: #ffffff;
   position: relative;
   width: 80px;
-  margin-left: 0px;
+  margin-left: 4px;
   margin-bottom: 0px;
   background: #760c76;
   list-style: none;
