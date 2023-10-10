@@ -5,7 +5,7 @@
   padding: 0px;
 }
 
-#element{
+#element {
   transition: all 0.5s ease;
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -39,8 +39,8 @@ body {
 
 .anim {
   list-style: none;
-  }
-  
+}
+
 
 /*Front*/
 .front img {
@@ -89,7 +89,7 @@ body {
   background-color: #ffffff;
   margin-top: 10px;
   position: relative;
-  
+
 }
 
 
@@ -119,9 +119,14 @@ body {
 
 }
 
-.ulback{
-  display: flex;
+
+.ulback {
+  width: 258px;
   height: 36px;
+  padding-left: 0;
+  border: 0;
+  display: block;
+
 
 }
 
@@ -131,14 +136,16 @@ body {
   font-size: 14px;
   position: relative;
   display: block;
+  height: 80px;
+
 }
 
-.fraquezas p{
-  height:30px;
+.fraquezas p {
+  height: 30px;
 }
 
-.fraquezas h6{
-  height: ;
+.fraquezas h6 {
+  height: 20px;
 }
 
 .resistencias {
@@ -150,7 +157,7 @@ body {
   left: 10px;
 }
 
-.Imunidades{
+.Imunidades {
   font-weight: 600;
   border: 0px solid;
   position: relative;
@@ -184,8 +191,8 @@ body {
 }
 
 /*Evoluções*/
-.evo{
-height: 120px;
+.evo {
+  height: 120px;
 }
 
 .evo1 {
@@ -258,7 +265,7 @@ height: 120px;
 
 }
 
-.evo1 .p1{
+.evo1 .p1 {
   font-size: 11px;
   position: relative;
   top: 10px;
@@ -268,7 +275,7 @@ height: 120px;
   text-align: center;
 }
 
-.evo1 .p2{
+.evo1 .p2 {
   font-size: 28px;
   position: relative;
   bottom: 38px;
@@ -278,7 +285,7 @@ height: 120px;
   text-align: center;
 }
 
-.evo1 .p3{
+.evo1 .p3 {
   font-size: 11px;
   position: relative;
   bottom: 68px;
@@ -288,7 +295,7 @@ height: 120px;
   text-align: center;
 }
 
-.evo2 .p1{
+.evo2 .p1 {
   font-size: 11px;
   width: 65px;
   position: relative;
@@ -299,7 +306,7 @@ height: 120px;
   text-align: center;
 }
 
-.evo2 .p2{
+.evo2 .p2 {
   font-size: 28px;
   position: relative;
   bottom: 38px;
@@ -309,7 +316,7 @@ height: 120px;
   text-align: center;
 }
 
-.evo2 .p3{
+.evo2 .p3 {
   font-size: 11px;
   position: relative;
   bottom: 68px;
@@ -319,7 +326,7 @@ height: 120px;
   text-align: center;
 }
 
-.evo3 p{
+.evo3 p {
   font-size: 11px;
   position: relative;
   top: 10px;
@@ -329,7 +336,7 @@ height: 120px;
   text-align: center;
 }
 
-#atual{
+#atual {
   font-weight: bold;
 }
 
@@ -643,277 +650,294 @@ height: 120px;
   margin-left: 0px;
   margin-bottom: 0px;
   background: #009307;
+  list-style: none;
 }
 
-.tipofogob span {
+.tipofogob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #ce6a18;
+  list-style: none;
 
 }
 
-.tipovoadorb span {
+.tipovoadorb {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #88c0d0;
+  list-style: none;
 }
 
-.tipoeletricob span {
+.tipoeletricob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #f4d90e;
+  list-style: none;
 }
 
-.tipovenenob span {
+.tipovenenob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #ab1fc0;
+  list-style: none;
 }
 
-.tipoaçob span {
+.tipoaçob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #a6a6a6;
+  list-style: none;
 }
 
-.tipoterrestreb span {
+.tipoterrestreb {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #ba5913;
+  list-style: none;
 }
 
-.tipopedrab span {
+.tipopedrab {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #dbcaa3;
+  list-style: none;
 }
 
-.tipolutadorb span {
+.tipolutadorb {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #ae3103;
+  list-style: none;
 }
 
-.tipogelob span {
+.tipogelob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #beeef2;
+  list-style: none;
 }
 
-.tipoaguab span {
+.tipoaguab {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #3b99f7;
+  list-style: none;
 }
 
-.tipopsiquicob span {
+.tipopsiquicob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #d80ab6;
+  list-style: none;
 }
 
-.tipoinsetob span {
+.tipoinsetob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #70b115;
+  list-style: none;
 }
 
-.tipodragaob span {
+.tipodragaob {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #3b00dd;
+  list-style: none;
 }
 
-.tipofadab span {
+.tipofadab {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #f85fd4;
+  list-style: none;
 }
 
-.tiponormalb span {
+.tiponormalb {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #dedede;
+  list-style: none;
 }
 
-.tipofantasmab span {
+.tipofantasmab {
   text-align: center;
   border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
-  font-size: 14px;
+  height: 18px;
+  font-size: 12px;
   text-transform: none;
   color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  width: 100px;
-  margin-left: 10px;
+  position: relative;
+  width: 80px;
+  margin-left: 0px;
   margin-bottom: 0px;
   background: #760c76;
+  list-style: none;
 }
