@@ -18,7 +18,7 @@
 
 <body>
 
-  <div class="navbarcaralho">
+  <div class="NavbarMain">
 
     <nav class="navbar navbar-expand-lg bg- border-bottom border-body" data-bs-theme="dark"
       style="background-color: rgb(1, 2, 38);">
@@ -57,10 +57,11 @@
     <div class="container">
       <div class="row">
         <div class="col-3" id="element">
-          <li class="anime" id="a001">
+          <li class="anim" id="a001">
+
             <div class="front" id="f001">
               <a class="bulbasaur">
-                <img id="002" src="/assets/img/001.png">
+                <img id="001" src="/assets/img/001.png">
               </a>
               <div class="info">
                 <p>Nº001</p>
@@ -76,9 +77,9 @@
             <div class="back" id="b001">
               <div class="evo">
                 <div class="evo1">
-                  
+                  <a href="charizard">
                   <img src="/assets/imgPA/bulbasaur.png" class="e1" alt="">
-                  <a href="google.coom"></a>
+                  </a>
                   <p class="p1" id="atual">Bulbasaur</p>
                   <p class="p2">→</p>
                   <p class="p3" id="atual">Lv16</p>
@@ -87,21 +88,19 @@
                   <img src="/assets/imgPA/ivysaur.png" alt="">
                   <p class="p1">Ivysaur</p>
                   <p class="p2">→</p>
-                  <p class="p3" >Lv36</p>
+                  <p class="p3">Lv36</p>
                 </div>
                 <div class="evo3">
                   <img src="/assets/imgPA/venusaur.png" alt="">
                   <p>Venusaur</p>
                 </div>
               </div>
-              <div class="especificações">
-
-              </div>
+             
 
               <p class="fraquezas" id="Fraquezas">
-                <div class="tipogramab">
-                  <span class="grama">Grama</span>
-                </div>
+              <div class="tipogramab">
+                <span class="grama">Grama</span>
+              </div>
               </p>
               <p class="resistencias" id="Fraquezas">
                 <a href="google.com"></a>
@@ -111,10 +110,11 @@
               <p class="Imunidades">Nenhuma imunidade</p>
 
             </div>
+
           </li>
         </div>
         <div class="col-3">
-          <li class="anime">
+          <li class="anim">
             <div class="front">
               <a class="Ivysaur">
                 <img src="/assets/img/002.png" href="https://www.pokemon.com/br/pokedex/Ivysaur"
@@ -2515,34 +2515,40 @@
   </div>
 </body>
 <script>
-
+  const oi1 = document.getElementById('f001')
+  const oi2 = document.getElementById('b001')
   const obj = document.getElementById('a001')
-  const virar =document.getElementById('element')
+  const virar = document.getElementById('element')
 
   var rotateDeg = 0;
+  var rotateDeg2 = 180;
+  oi2.style.transform = 'rotateY(' + rotateDeg2 + 'deg)';
 
   element.addEventListener('click', () => {
-
-rotateDeg = rotateDeg - 180;
- obj.style.transform = 'rotateY(' + rotateDeg + 'deg)';
-    
-
-}
- )
-  
-//   const elements= document.querySelectorAll(".col-3")
-//   elements.forEach(element=>{
-//     element.addEventListener('click',
-//     () => {
-
-// rotateDeg = rotateDeg + 180;
-// let 
-// element.style.transform = 'rotateY(' + rotateDeg + 'deg)';
+    rotateDeg2 = rotateDeg2 + 180
+    rotateDeg = rotateDeg + 180;
+    oi2.style.transform = 'rotateY(' + rotateDeg2 + 'deg)';
+    oi1.style.transform = 'rotateY(' + rotateDeg + 'deg)';
 
 
-// })
-//   })
-//   console.log(elements)
-  </script>
+  }
+  )
+
+
+
+  //   const elements= document.querySelectorAll(".col-3")
+  //   elements.forEach(element=>{
+  //     element.addEventListener('click',
+  //     () => {
+
+  // rotateDeg = rotateDeg + 180;
+  // let 
+  // element.style.transform = 'rotateY(' + rotateDeg + 'deg)';
+
+
+  // })
+  //   })
+  //   console.log(elements)
+</script>
 
 </html>

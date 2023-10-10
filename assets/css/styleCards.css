@@ -2,7 +2,6 @@
 
 * {
   margin: 0px;
-
   padding: 0px;
 }
 
@@ -12,6 +11,8 @@
   backface-visibility: hidden;
 }
 
+/*Body/Cards*/
+
 body .Cards {
   display: block;
   justify-content: center;
@@ -20,6 +21,9 @@ body .Cards {
   font-family: "Arial";
   gap: 16px;
   padding-top: 5%;
+  height: 1000px;
+  margin-left: 15%;
+  float: left;
 }
 
 body {
@@ -29,11 +33,16 @@ body {
 }
 
 
-.navbar-brand img {
-  width: 50px;
-  height: 50px;
+.Cards .col-3 {
+  height: 430px;
 }
 
+.anim {
+  list-style: none;
+  }
+  
+
+/*Front*/
 .front img {
   background-color: #ebebeb;
   border: 0px solid;
@@ -44,7 +53,7 @@ body {
 }
 
 .info p {
-  padding-left: 10px;
+  padding-left: 12px;
   padding-top: 10px;
   padding-bottom: 0;
   height: 35px;
@@ -64,7 +73,7 @@ body {
 }
 
 .front {
-  transition: all 0.5s ease;
+  transition: all 1s ease;
   transform-style: preserve-3d;
   backface-visibility: hidden;
   border: 1px solid;
@@ -79,31 +88,18 @@ body {
   padding-left: 5px;
   background-color: #ffffff;
   margin-top: 10px;
-  transition: all 0.5s ease;
-  transform-style: preserve-3d;
- 
-
+  position: relative;
+  
 }
 
-.Cards .col-3 {
-  height: 430px;
 
-}
 
-.anime {
-  transition: all 2s ease;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  list-style: none;
-  height: 430px;
-}
+
+/*Back*/
 
 .back {
-  cursor: pointer;
   backface-visibility: hidden;
-  transform: rotateY(180deg);
   position: relative;
-  bottom: 400px;
   border: 1px solid;
   border-color: #d0d0d0;
   border-radius: 20px;
@@ -116,27 +112,13 @@ body {
   width: 270px;
   padding-left: 5px;
   background-color: #f3f1f1;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
   transform-style: preserve-3d;
   font-family: 'Mooli', sans-serif;
+  bottom: 400px;
 
 }
 
-
-.Cards {
-  height: 1000px;
-  margin-left: 15%;
-  float: left;
-}
-
-.anime:hovr {
-
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;
-
-}
-
-/*Back*/
 
 .fraquezas {
   font-weight: 600;
@@ -236,11 +218,6 @@ body {
   bottom: 110px;
 }
 
-.evo {
-
-  height: 65px;
-
-}
 
 .evo1 img {
   position: relative;
@@ -267,10 +244,6 @@ body {
 
 }
 
-.ih {
-  width: 45px;
-  height: 45px;
-}
 
 .evo1 .p1{
   font-size: 11px;
@@ -351,9 +324,7 @@ body {
 }
 
 
-
-
-/*Tipagens*/
+/*Tipagens Front*/
 
 
 .tipofogo span {
@@ -408,25 +379,6 @@ body {
   background: #009307;
 }
 
-.tipogramab span {
-  text-align: center;
-  border: 0px solid;
-  margin: 0px;
-  border-radius: 8px;
-  box-sizing: 0px;
-  font-size: 12px;
-  text-transform: none;
-  color: #ffffff;
-  background-color: aliceblue;
-  float: left;
-  top: 60px;
-  position: relative;
-  width: 80px;
-  margin-left: 10px;
-  margin-bottom: 0px;
-  background: #009307;
-}
-
 .tipoeletrico span {
   text-align: center;
   border: 3px solid;
@@ -439,7 +391,7 @@ body {
   background-color: aliceblue;
   float: left;
   width: 100px;
-  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 0px;
   background: #f4d90e;
 }
@@ -650,6 +602,300 @@ body {
 .tipofantasma span {
   text-align: center;
   border: 3px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #760c76;
+}
+
+/*Tipagens Back*/
+
+.tipogramab span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 12px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  top: 60px;
+  position: relative;
+  width: 80px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #009307;
+}
+
+.tipofogob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ce6a18;
+
+}
+
+.tipovoadorb span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #88c0d0;
+}
+
+.tipoeletricob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #f4d90e;
+}
+
+.tipovenenob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ab1fc0;
+}
+
+.tipoaçob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #a6a6a6;
+}
+
+.tipoterrestreb span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ba5913;
+}
+
+.tipopedrab span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #dbcaa3;
+}
+
+.tipolutadorb span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #ae3103;
+}
+
+.tipogelob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #beeef2;
+}
+
+.tipoaguab span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #3b99f7;
+}
+
+.tipopsiquicob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #d80ab6;
+}
+
+.tipoinsetob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #70b115;
+}
+
+.tipodragaob span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #3b00dd;
+}
+
+.tipofadab span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #f85fd4;
+}
+
+.tiponormalb span {
+  text-align: center;
+  border: 0px solid;
+  margin: 0px;
+  border-radius: 8px;
+  box-sizing: 0px;
+  font-size: 14px;
+  text-transform: none;
+  color: #ffffff;
+  background-color: aliceblue;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background: #dedede;
+}
+
+.tipofantasmab span {
+  text-align: center;
+  border: 0px solid;
   margin: 0px;
   border-radius: 8px;
   box-sizing: 0px;
