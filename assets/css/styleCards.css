@@ -2,6 +2,7 @@
 
 * {
   margin: 0px;
+  list-style: none;
   padding: 0px;
 }
 
@@ -116,6 +117,7 @@ body {
   transform-style: preserve-3d;
   font-family: 'Mooli', sans-serif;
   bottom: 400px;
+  transform: rotateY(180deg);
 
 }
 
@@ -129,21 +131,18 @@ body {
   bottom: 7px;
   position: relative;
 
-
-
 }
-
+ /*Fraquezas*/
 .fraquezas {
 
   border: 0px solid;
-  background-color: #ffffff;
+  background-color: #f3f1f1;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 13px;
   position: relative;
   display: block;
-  height: 80px;
-  box-shadow: 4px 4px 12px #aaaa;
-  box-shadow: opa;
+  height: 75px;
+
 
 }
 
@@ -166,46 +165,180 @@ body {
   margin-left: 5px;
 }
 
+/*Resistencias*/
 .resistencias {
 
   border: 0px solid;
+  background-color: #f3f1f1;
+  border-radius: 10px;
+  font-size: 13px;
   position: relative;
-  top: 60px;
-  font-size: 14px;
-  left: 10px;
+  display: block;
+  height: 75px;
+
+  position: relative;
+
+
 }
 
-.Imunidades {
+.resistencias p {
+  height: 30px;
+  display: block;
+  margin: 0;
+  position: relative;
+  top: 10px;
+}
+
+.resistencias h6 {
+  height: 19px;
+  margin-top: 5px;
+  display: block;
+  top: 3px;
+  width: 220px;
+  position: relative;
+  margin-left: 5px;
+}
+
+
+/*Imunidades*/
+
+.imunidades {
 
   border: 0px solid;
+  background-color: #f3f1f1;
+  border-radius: 10px;
+  font-size: 13px;
   position: relative;
-  top: 45px;
-  font-size: 14px;
-  margin-left: 10px;
+  display: block;
+  height: 50px;
+
+  position: relative;
+
 
 }
 
-.historia {
-  border: 1px solid;
-  border-color: rgb(0, 0, 0);
-  border-radius: 100%;
-  width: 45px;
-  height: 45px;
-
-  background-color: #ffffff;
-  cursor: pointer;
+.imunidades p {
+  height: 30px;
+  display: block;
+  margin: 0;
+  position: relative;
+  top: 10px;
 }
 
-.especificaões {
-  border: 2px solid;
-  border-color: rgb(0, 0, 0);
-  border-radius: 100%;
-  width: 45px;
-  height: 45px;
-  top: 100px;
+.imunidades h6 {
+  height: 19px;
+  margin-top: 5px;
+  display: block;
+  top: 3px;
+  width: 220px;
+  position: relative;
+  margin-left: 5px;
+}
 
-  background-color: #ff0d00ab;
+/*Audio/Wiki*/
+.audio {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
   cursor: pointer;
+  position: relative;
+  align-content: center;
+  left: 80px;
+  top: 5px;
+}
+
+.audio img{
+  width: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+  height: 25px;
+  display: flex;
+}
+
+.Wiki {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  align-content: center;
+  left: 160px;
+  bottom: 30px;
+}
+
+.Wiki img{
+  width: 30px;
+  margin-left: 2.5px;
+  position: relative;
+  top: 2.5px;
+  height: 30px;
+  display: flex;
+}
+/*Animações*/
+
+
+.audio img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
+}
+ 
+.Wiki img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+}
+
+.EVO img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
+}
+.evo1 img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
+}
+.evo2 img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
+}
+.evo3 img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
+}
+.Evo1 img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
+}
+.Evo2 img:hover{
+  transform: scale(115%);
+  transition: 1000000000000s ease;
+  transform: rotateZ(30000000000000000000000deg);
+  
 }
 
 /*Evoluções*/
@@ -283,8 +416,8 @@ body {
 
 }
 
-.evo1 .p1 {
-  font-size: 11px;
+.evo1 .p1{
+  font-size: 10px;
   position: relative;
   top: 10px;
   left: px;
@@ -293,28 +426,28 @@ body {
   text-align: center;
 }
 
-.evo1 .p2 {
-  font-size: 28px;
+.evo1 .p2{
+  font-size: 22px;
   position: relative;
-  bottom: 38px;
+  bottom: 31px;
+  left: 43.5px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo1 .p3{
+  font-size: 11px;
+  position: relative;
+  bottom: 55px;
   left: 45px;
   align-content: center;
   align-items: center;
   text-align: center;
 }
 
-.evo1 .p3 {
-  font-size: 11px;
-  position: relative;
-  bottom: 68px;
-  left: 45px;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.evo2 .p1 {
-  font-size: 11px;
+.evo2 .p1{
+  font-size: 10px;
   width: 65px;
   position: relative;
   top: 10px;
@@ -324,25 +457,39 @@ body {
   text-align: center;
 }
 
-.evo2 .p2 {
-  font-size: 28px;
+
+
+.evo2 .p2{
+  font-size: 22px;
   position: relative;
-  bottom: 38px;
+  bottom: 31px;
   left: 42px;
   align-content: center;
   align-items: center;
   text-align: center;
 }
 
-.evo2 .p3 {
+
+.evo2 .p3{
   font-size: 11px;
   position: relative;
-  bottom: 68px;
+  bottom: 55px;
   left: 42px;
   align-content: center;
   align-items: center;
   text-align: center;
 }
+
+.evo3 p{
+  font-size: 10px;
+  position: relative;
+  top: 10px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 .evo3 p {
   font-size: 11px;
@@ -358,6 +505,129 @@ body {
   font-weight: bold;
 }
 
+/*2 evoluções*/
+
+.Evo1 {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 45px;
+  top: 20px;
+}
+
+.Evo2 {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  bottom: 45px;
+}
+
+.Evo1 img {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  left: 5px;
+  top: 5px;
+}
+
+.Evo2 img {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  left: 5px;
+  top: 5px;
+}
+
+.Evo1 .p1 {
+  font-size: 11px;
+  position: relative;
+  top: 10px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Evo1 .p2 {
+  font-size: 28px;
+  position: relative;
+  bottom: 38px;
+  left: 54px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Evo1 .p3 {
+  font-size: 11px;
+  position: relative;
+  bottom: 68px;
+  left: 54px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Evo2 .p1 {
+  font-size: 11px;
+  width: 65px;
+  position: relative;
+  top: 10px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*1 Evoloção*/
+
+.EVO {
+  border: 0px solid;
+  margin: 0;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 12px #aaaa;
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 95px;
+  top: 20px;
+}
+
+.EVO img {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  left: 5px;
+  top: 5px;
+}
+
+.EVO .p1 {
+  font-size: 12px;
+  position: relative;
+  top: 12px;
+  left: px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /*Tipagens Front*/
 
@@ -657,16 +927,18 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
+
   margin-bottom: 0px;
   background: #009307;
   list-style: none;
@@ -676,16 +948,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #ce6a18;
   list-style: none;
@@ -696,16 +969,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #88c0d0;
   list-style: none;
@@ -715,16 +989,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #f4d90e;
   list-style: none;
@@ -734,16 +1009,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #ab1fc0;
   list-style: none;
@@ -753,16 +1029,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #a6a6a6;
   list-style: none;
@@ -772,16 +1049,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #ba5913;
   list-style: none;
@@ -791,16 +1069,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #dbcaa3;
   list-style: none;
@@ -810,16 +1089,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #ae3103;
   list-style: none;
@@ -829,16 +1109,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #beeef2;
   list-style: none;
@@ -848,16 +1129,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #3b99f7;
   list-style: none;
@@ -867,16 +1149,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 4px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #d80ab6;
   list-style: none;
@@ -886,16 +1169,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #70b115;
   list-style: none;
@@ -905,16 +1189,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #3b00dd;
   list-style: none;
@@ -924,16 +1209,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #f85fd4;
   list-style: none;
@@ -943,16 +1229,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #dedede;
   list-style: none;
@@ -962,16 +1249,17 @@ body {
   text-align: center;
   float: left;
   border: 0px solid;
-  margin: 5px 0 0 10px;
+  margin: 6px 0 0 0px;
   border-radius: 8px;
   box-sizing: 0px;
   height: 18px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
   color: #ffffff;
   position: relative;
-  width: 80px;
+  width: 76px;
   margin-left: 4px;
+  margin-right: 5px;
   margin-bottom: 0px;
   background: #760c76;
   list-style: none;
