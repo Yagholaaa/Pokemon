@@ -124,7 +124,7 @@ body {
 
 .ulback {
   width: 258px;
-  height: 36px;
+  height: 0px;
   padding-left: 0;
   border: 0;
   display: block;
@@ -249,7 +249,7 @@ body {
   position: relative;
   align-content: center;
   left: 80px;
-  top: 5px;
+ 
 }
 
 .audio img{
@@ -276,8 +276,8 @@ body {
   cursor: pointer;
   position: relative;
   align-content: center;
-  left: 160px;
-  bottom: 30px;
+  left: 150px;
+  bottom: 35px;
 }
 
 .Wiki img{
@@ -290,57 +290,84 @@ body {
 }
 /*Animações*/
 
+.front:hover{
+  transition: 0.7s ease;
+  transform: scale(105%);
+}
+
+.back:hover{
+  transition: 0.7s ease;
+  transform: scale(105%);
+}
 
 .audio img:hover{
   transform: scale(115%);
-  transition: 1000000000000s ease;
-  transform: rotateZ(30000000000000000000000deg);
+  transition: 1s ease;
+
   
 }
  
 .Wiki img:hover{
   transform: scale(115%);
-  transition: 1000000000000s ease;
-  transform: rotateZ(30000000000000000000000deg);
+  transition: 1s ease;
+
 }
 
 .EVO img:hover{
   transform: scale(115%);
   transition: 1000000000000s ease;
   transform: rotateZ(30000000000000000000000deg);
-  
+
 }
 .evo1 img:hover{
   transform: scale(115%);
   transition: 1000000000000s ease;
   transform: rotateZ(30000000000000000000000deg);
-  
+
 }
 .evo2 img:hover{
   transform: scale(115%);
   transition: 1000000000000s ease;
   transform: rotateZ(30000000000000000000000deg);
-  
+
 }
 .evo3 img:hover{
   transform: scale(115%);
   transition: 1000000000000s ease;
   transform: rotateZ(30000000000000000000000deg);
-  
+
 }
 .Evo1 img:hover{
   transform: scale(115%);
   transition: 1000000000000s ease;
   transform: rotateZ(30000000000000000000000deg);
-  
+
 }
 .Evo2 img:hover{
   transform: scale(115%);
   transition: 1000000000000s ease;
   transform: rotateZ(30000000000000000000000deg);
+
+}
+/*Tags*/
+
+#f3{
+  height: 50px;
+  bottom: 10px;
+}
+
+#r12{
+  height: 120px;
   
 }
 
+#atual {
+  font-weight: bold;
+}
+
+#r9{
+  height: 110px;
+}
 /*Evoluções*/
 .evo {
   height: 120px;
@@ -501,9 +528,6 @@ body {
   text-align: center;
 }
 
-#atual {
-  font-weight: bold;
-}
 
 /*2 evoluções*/
 
