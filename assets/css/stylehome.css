@@ -1,57 +1,64 @@
 
 .pokedex{
-    border: 1px solid;
-    width: 500px;
-    height: 400px;
+    border: 0px solid;
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 80px;
-    border-radius:80px;
+    border-radius:80%;
     left: 3px;
     background-color: white;
     margin: 10px;
+    box-shadow: 4px 4px 12px #aaaa;
 }
 
 .pokedex img{
     width:150px;
     height: 150px;
     position: relative;
-    top: 125px;
-    left: 175px;
+    top: 75px;
+    left: 75px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 
 .pokedex img:hover{
-    transform: rotateZ(360deg) scale(220%);
+    transform: rotateZ(360deg) scale(140%);
 }
 
 .contatos{
-    border: 1px solid;
-    width: 500px;
-    height: 400px;
+    border: 0px solid;
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 80px;
-    border-radius:80px;
+    border-radius:80%;
     left: 3px;
     background-color: white;
+    margin: 10px;
+    box-shadow: 4px 4px 12px #aaaa;
 }
 
 .contatos img{
-    width:150px;
-    height: 150px;
+    width:120px;
+    height: 120px;
     position: relative;
-    top: 125px;
-    left: 175px;
+    top: 90px;
+    left: 90px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 
 .contatos img:hover{
-    transform: rotateZ(360deg) scale(220%);
+    transform: rotateZ(360deg) scale(140%);
 }
 
 
 .box{
 display: flex;
 justify-content: space-evenly;
+position: relative;
+top: 250px;
 }
