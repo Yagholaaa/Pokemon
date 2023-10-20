@@ -25,6 +25,8 @@ body .Cards {
   height: 1000px;
   margin-left: 15%;
   float: left;
+
+
 }
 
 body {
@@ -36,6 +38,7 @@ body {
 
 .Cards .col-3 {
   height: 430px;
+  float: left-;
 }
 
 .anim {
