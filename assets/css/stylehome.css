@@ -1,0 +1,57 @@
+
+.pokedex{
+    border: 1px solid;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    border-radius:80px;
+    left: 3px;
+    background-color: white;
+    margin: 10px;
+}
+
+.pokedex img{
+    width:150px;
+    height: 150px;
+    position: relative;
+    top: 125px;
+    left: 175px;
+    transition: 0.5s;
+}
+
+
+.pokedex img:hover{
+    transform: rotateZ(360deg) scale(220%);
+}
+
+.contatos{
+    border: 1px solid;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    border-radius:80px;
+    left: 3px;
+    background-color: white;
+}
+
+.contatos img{
+    width:150px;
+    height: 150px;
+    position: relative;
+    top: 125px;
+    left: 175px;
+    transition: 0.5s;
+}
+
+
+.contatos img:hover{
+    transform: rotateZ(360deg) scale(220%);
+}
+
+
+.box{
+display: flex;
+justify-content: space-evenly;
+}
